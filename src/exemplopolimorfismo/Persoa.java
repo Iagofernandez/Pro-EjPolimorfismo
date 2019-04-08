@@ -10,8 +10,8 @@ package exemplopolimorfismo;
  * @author ifernandezblanco
  */
 public class Persoa {
-    private String  nome;
-    private float soldo;
+    private String  nome= "luis";
+    private float soldo=3000;
 
     public Persoa() {
     }

@@ -6,7 +6,7 @@ package exemplopolimorfismo;
  * @author ifernandezblanco
  */
 public class Profesorado extends Persoa {
-    private String modulo;
+    private String modulo="Programacion";
 
     public Profesorado() {
     }
@@ -22,7 +22,7 @@ public class Profesorado extends Persoa {
 
     @Override
     public String toString() {
-        return super.toString() + "modulo=" + modulo + '}';
+        return super.toString() + "modulo= " + modulo ;
     }
     
     

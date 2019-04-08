@@ -10,7 +10,7 @@ package exemplopolimorfismo;
  * @author ifernandezblanco
  */
 public class Deportista extends Persoa {
-     private String tipoDeporte;
+     private String tipoDeporte="futbol";
 
     public Deportista() {
     }
